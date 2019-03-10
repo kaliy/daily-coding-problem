@@ -1,6 +1,7 @@
 package org.kaliy.dailycodingproblem;
 
 public class StringDecodingCounter {
+
     public int count(String string) {
         if (null == string || string.length() == 0) {
             return 0;
@@ -9,19 +10,18 @@ public class StringDecodingCounter {
             assert c >= '1' && c <= '9';
         }
         char[] chars = string.toCharArray();
-        return count(chars, 0);
-    }
-
-    private int count(char[] chars, int fromIndex) {
-        int count = 1;
-        for (int i = fromIndex + 2; i <= chars.length; i++) {
-            if (isInAlphabet(chars[i - 2], chars[i - 1])) {
-                count += count(chars, i);
+        int w1 = 1, w2 = 1;
+        for (int i = 1; i < chars.length; i++) {
+            if (isInAlphabet(chars[i - 1], chars[i])) {
+                int currentWays = w1 + w2;
+                w1 = w2;
+                w2 = currentWays;
+            } else {
+                w1 = w2;
             }
         }
-        return count;
+        return w2;
     }
-
     private boolean isInAlphabet(char a, char b) {
         return (a - '0') * 10 + b - '0' <= 26;
     }
