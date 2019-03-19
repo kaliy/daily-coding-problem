@@ -130,3 +130,11 @@ Implement an autocomplete system. That is, given a query string s and a set of a
 For example, given the query string de and the set of strings [dog, deer, deal], return [deer, deal].
 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
+
+## Estimate Pi number using Monte-Carlo method (PiCalculation.java)
+
+This problem was asked by Google.
+
+The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
+
+Hint: The basic equation of a circle is x2 + y2 = r2.
