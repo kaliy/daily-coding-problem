@@ -138,3 +138,11 @@ This problem was asked by Google.
 The area of a circle is defined as πr^2. Estimate π to 3 decimal places using a Monte Carlo method.
 
 Hint: The basic equation of a circle is x2 + y2 = r2.
+
+## Calculate minimum number of classrooms (ClassroomScheduler.java)
+
+This problem was asked by Snapchat.
+
+Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
+
+For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
