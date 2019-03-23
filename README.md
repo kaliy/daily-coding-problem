@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/kaliy/daily-coding-problem.svg?branch=master)](https://travis-ci.com/kaliy/daily-coding-problem)
 [![codecov](https://codecov.io/gh/kaliy/daily-coding-problem/branch/master/graph/badge.svg)](https://codecov.io/gh/kaliy/daily-coding-problem)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkaliy%2Fdaily-coding-problem.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkaliy%2Fdaily-coding-problem?ref=badge_shield)
 
 Once I decided to solve one coding problem a day (or at least try to).
 
@@ -146,3 +147,7 @@ This problem was asked by Snapchat.
 Given an array of time intervals (start, end) for classroom lectures (possibly overlapping), find the minimum number of rooms required.
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fkaliy%2Fdaily-coding-problem.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkaliy%2Fdaily-coding-problem?ref=badge_large)
