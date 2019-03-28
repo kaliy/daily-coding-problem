@@ -165,3 +165,15 @@ For example, given the following board:
 ~~~~
 
 and start = (3, 0) (bottom left) and end = (0, 0) (top left), the minimum number of steps required to reach the end is 7, since we would need to go through (1, 2) because there is a wall everywhere else on the second row.
+
+## Check if brackets are balanced in a string (BracketsBalanceChecker.java)
+
+This problem was asked by Facebook.
+
+Given a string of round, curly, and square open and closing brackets, return whether the brackets are balanced (well-formed).
+
+For example, given the string "`([])[]({})`", you should return true.
+
+Given the string "`([)]`" or "`((()`", you should return false.
+
+
