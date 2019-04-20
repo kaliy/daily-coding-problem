@@ -184,3 +184,14 @@ Run-length encoding is a fast and simple method of encoding strings. The basic i
 
 Implement run-length encoding and decoding. You can assume the string to be encoded have no digits and consists solely of alphabetic characters. You can assume the string to be decoded is valid.
 
+## Stack with maximum value
+
+Implement a stack that has the following methods:
+
+- push(val), which pushes an element onto the stack
+- pop(), which pops off and returns the topmost element of the stack. If there are no elements in the stack, then it should throw an error or return null.
+- max(), which returns the maximum value in the stack currently. If there are no elements in the stack, then it should throw an error or return null.
+
+Each method should run in constant time.
+
+
